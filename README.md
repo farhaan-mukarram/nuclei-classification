@@ -13,10 +13,10 @@ Purpose of files:
 - `dataloader.py`: dataloader utils and classes
 - `evaluation.py`: function to evaluate a model on the test set
 - `plots.py`: utils for plotting
-- `simclr.py`: SimCLR model architecture, utils and trainer
+- `simclr.py`: SimCLR model architecture, utils and training script
 - `transforms.py`: Transformation utils for data augmentation
 - `utils.py`: Common utility functions
-- `vgg.py`: VGG model architecture, utils and trainer
+- `vgg.py`: VGG model architecture, utils and training script
 
 ## Dataset:
 The dataset contains images of nuclei patches, divided into three classes: tumor, histiocyte and lymphocyte. Each image has dimensions of 100 x 100, with zero padding. There are a total of 2100 images, 700 per class. The patches are also grouped into two different sample types: primary samples and metastatic samples.
